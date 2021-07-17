@@ -20,7 +20,7 @@ function Header() {
       <Icon name="description" size="5xl" color="blue" />
       <h1 className="md:inline-flex ml-2 text-gray-700 text-2xl">Docs</h1>
 
-      <div className="mx-5 md:mx-10 flex flex-grow items-center px-5 py-2 bg-gray-100 text-gray-600 rounded-lg focus-within:text-gray-600 focus-within:shadow-md">
+      <div className="hidden mx-5 md:mx-10 md:flex flex-grow items-center px-5 py-2 bg-gray-100 text-gray-600 rounded-lg focus-within:text-gray-600 focus-within:shadow-md">
         <Icon name="search" size="3xl" color="gray" />
         <input
           type="text"
